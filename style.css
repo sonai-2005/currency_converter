@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(140, 207, 207);
+}
+
+.container {
+    min-width: 50vh;
+    background-color: azure;
+    padding: 4vmin;
+    border-radius: 10%;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+form {
+    margin: 2rem 0 0.5 rem 0;
+}
+
+form,
+select,
+button,
+input {
+    width: 100%;
+    min-height: 5vh;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+}
+
+form input {
+    border: 0.5px solid gray;
+    font-size: 2.5vh;
+    padding-left: 0.29rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+}
+.select-container img{
+    min-width: none;
+    max-width: 20%;
+}
+.select-container{
+    
+    display: flex;
+    justify-content:center;
+    min-height:5vh ;
+    width: 14vmin;
+    min-width: 7vh;
+    padding-left:1rem ;
+    align-items: center;
+    border-radius: 0.6rem;
+    border: 0.5px solid gray;
+
+}
+.dropdown i{
+    font-size: 3.7vh;
+    margin-top: 2.3vh;
+}
+.select-container select{
+    font-size: 2.2vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.msg{
+    margin:3vh 0 5vh 0;
+}
+form button{
+    height: 3rem;
+    min-height: 0.5rem;
+     transition: transform 0.2s ease-in-out;
+     background-color: rgb(124, 44, 44);
+     color: white;
+     font-size: 1rem;
+     cursor: pointer;
+}
+form button:hover{
+    transform: scale(1.1);
+}
+form button:active{
+    transform: scale(0.98);
+}
